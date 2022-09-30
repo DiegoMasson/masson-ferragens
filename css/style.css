@@ -1138,6 +1138,10 @@ h6 {
   display: flex;
 }
 
+#contact .address-item i {
+  color: #ea4335;
+}
+
 #contact .address-item div {
   margin-top: 5px;
   margin-left: 10px;
@@ -1160,6 +1164,18 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+}
+
+#contact .social-links a.instagram {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+#contact .social-links a.facebook {
+  background: #3b5998;
+}
+
+#contact .social-links a.whats-app {
+  background: #25d366;
 }
 
 #contact .social-links a:hover {
