@@ -332,6 +332,11 @@ h6 {
   border: 2px solid #cc1537;
 }
 
+#intro .intro-info .btn-contact i {
+  font-size: 18px;
+  color: #25d366;
+}
+
 #intro .social-links {
   margin: 35px auto 0 auto;
   display: none;
