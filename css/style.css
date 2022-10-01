@@ -146,7 +146,6 @@ h6 {
   line-height: 1px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: normal;
-  border: 2px solid #FFF;
   box-shadow: 0 0 3px #00000060;
 }
 
@@ -1481,6 +1480,19 @@ h6 {
   #intro .intro-info .btn-contact {
     width: 100%;
     margin: 20px 0 0 0;
+  }
+  
+  #intro .intro-info .container-button-icon {
+    position: relative;
+  }
+  
+  #intro .intro-info .container-button-icon i {
+    position: absolute;
+    right: -24px;
+    top: 14px;
+    padding: 16px 19px;
+    font-size: 42px;
+    border-radius: 40px;
   }
 
   .section-header p {
