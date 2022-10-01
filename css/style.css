@@ -1345,6 +1345,36 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Thanks
+--------------------------------------------------------------*/
+
+#thanks .container-thanks {
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+#thanks .title {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+#thanks .description {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  max-width: 470px;
+  text-align: center;
+}
+
+#thanks .container-thanks i {
+  font-size: 8rem;
+  color: #25D366;
+}
+
+/*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
