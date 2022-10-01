@@ -151,7 +151,7 @@ h6 {
 }
 
 #topbar .social-links a i {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 #topbar .social-links a:hover {
@@ -335,6 +335,32 @@ h6 {
 #intro .intro-info .btn-contact i {
   font-size: 18px;
   color: #25d366;
+}
+
+#intro .intro-info .container-button-icon {
+  display: flex;
+  align-items: center;
+}
+
+#intro .intro-info .container-button-icon .btn-contact {
+  background: #128C7E;
+  color: #FFF;
+  border-color: #128C7E;
+}
+
+#intro .intro-info .container-button-icon .btn-contact:hover {
+  background: #075E54;
+  border-color: #075E54;
+}
+
+#intro .intro-info .container-button-icon i {
+  position: relative;
+  right: 18px;
+  padding: 12px 15px;
+  background: #25d366;
+  color: white;
+  font-size: 36px;
+  border-radius: 30px;
 }
 
 #intro .social-links {
@@ -1171,6 +1197,10 @@ h6 {
   transition: 0.3s;
 }
 
+#contact .social-links a i {
+  vertical-align: middle;
+}
+
 #contact .social-links a.instagram {
   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
 }
@@ -1368,6 +1398,10 @@ h6 {
 
   #intro .intro-info {
     text-align: center;
+  }
+  
+  #intro .intro-info .container-button-icon {
+    justify-content: center;
   }
 
   #intro .social-links {
